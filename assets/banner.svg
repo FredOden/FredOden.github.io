@@ -1,0 +1,6 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="200" fill="#111"/>
+  <text x="400" y="120" font-size="48" text-anchor="middle" fill="#66aaff">
+    LourahJs Ecosystem
+  </text>
+</svg>
