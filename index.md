@@ -14,4 +14,4 @@ Some of these projects became full ecosystems, such as **LourahJs**, while other
 
 ## LourahJs Ecosystem
 👉 [LourahJs Ecosystem](/my-software-activity/my-github/lourahjs-ecosystem/)
-👉 [LourahJs Framework](/my-software-activity/my-github/lourahjs.md)
+👉 [LourahJs Framework](/my-software-activity/my-github/lourahjs-ecosystem/lourahjs.md)
