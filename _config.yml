@@ -16,6 +16,7 @@ heading_anchors: true
 
 # --- Navigation ---
 nav_sort: case_sensitive
+nav_order: 1
 
 # --- Logo & favicon ---
 logo: "/assets/images/logo.png"
