@@ -1,21 +1,35 @@
-title: Lourah
+title: "LourahJs Documentation"
+description: "Documentation du projet LourahJs"
+url: "https://lourah.com"
+baseurl: ""
+
+# --- Just the Docs (version compatible GitHub Pages) ---
 remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
 
-url: "https://lourah.com"
-
-color_scheme: "dark"
-
-logo: "/assets/logo.svg"
-
-aux_links:
-  "GitHub":
-    - "https://github.com/FredOden"
-
+# --- Options Just the Docs ---
+color_scheme: dark
 search_enabled: true
+heading_anchors: true
 
-sass:
-  load_paths:
-    - assets
+# --- Navigation ---
+nav_sort: case_sensitive
+
+# --- Logo & favicon ---
+logo: "/assets/images/logo.png"
+favicon_ico: "/assets/images/favicon.ico"
+
+# --- Markdown options ---
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# --- Exclusions ---
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor"
