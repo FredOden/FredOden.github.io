@@ -18,6 +18,27 @@ heading_anchors: true
 nav_sort: case_sensitive
 nav_order: 1
 
+nav:
+  - title: "My Software Activity"
+    url: /my-software-activity/
+
+  - title: "My GitHub"
+    url: /my-software-activity/my-github/
+
+  - title: "LourahJs Ecosystem"
+    url: /my-software-activity/my-github/lourahjs-ecosystem/
+    children:
+      - title: "Engine"
+        url: /my-software-activity/my-github/lourahjs-ecosystem/engine/
+      - title: "JavaScript Modules"
+        url: /my-software-activity/my-github/lourahjs-ecosystem/js/
+      - title: "API"
+        url: /my-software-activity/my-github/lourahjs-ecosystem/api/
+      - title: "Tutorials"
+        url: /my-software-activity/my-github/lourahjs-ecosystem/tutorials/
+      - title: "Reference"
+        url: /my-software-activity/my-github/lourahjs-ecosystem/reference/
+
 # --- Logo & favicon ---
 logo: "/assets/images/logo.png"
 favicon_ico: "/assets/images/favicon.ico"
@@ -34,3 +55,4 @@ exclude:
   - "Gemfile.lock"
   - "node_modules"
   - "vendor"
+
